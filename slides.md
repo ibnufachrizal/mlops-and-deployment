@@ -7,6 +7,11 @@ themeConfig:
   github: murilo-cunha
   twitter: _murilocunha
   linkedin: in/murilo-cunha
+# enable presenter mode, can be boolean, 'dev' or 'build'
+presenter: true
+# enable slide recording, can be boolean, 'dev' or 'build'
+record: true
+
 title: MLOps
 info: |
   ## MLOps
@@ -121,9 +126,9 @@ layout: default
 
 
 <v-click>
-  
+
 <Youtube id="SD3irxdKfxk" rounded-lg scale-130 shadow />
-  
+
 </v-click>
 
 ---
@@ -137,11 +142,11 @@ layout: twocols
 ::left::
 
 <v-click>
-  
+
 <div flex items-center justify-center h-full class="-mt-10">
 <img src="https://media.giphy.com/media/1BfhAhC5Vvd12EUaFq/giphy.gif?cid=790b7611h13pesldm28uqz6naaeuys4mag61pe7jl99znt7b&ep=v1_gifs_search&rid=giphy.gif" rounded-lg scale-70 shadow-lg />
 </div>
-  
+
 </v-click>
 
 ::right::
@@ -201,9 +206,9 @@ hideInToc: true
 <br/>
 
 <div flex items-center justify-center h-full m-5>
-  
+
 ## " To help us understand what it takes for a machine learning project takes to go from [idea to production]{v-mark.box.yellow=1}, looking closely at the differences between [machine learning]{.gradient-text} and [operations]{.gradient-text} "
-  
+
 </div>
 
 ---
@@ -213,9 +218,9 @@ hideInToc: true
 
 <div flex flex-col items-center justify-center h-full>
 
-<div shadow-lg rounded-lg >  
+<div shadow-lg rounded-lg >
 <img src="https://openai-labs-public-images-prod.azureedge.net/user-FpwegUavI965wXO1WB5HjsxZ/generations/generation-8Aew75oFXWIuddrQkA3j5b1U/image.webp" h-80 />
-  
+
 </div>
 
 `“pixel art angry face with symbols on mouth censoring profanity”` - <img src="https://static-00.iconduck.com/assets.00/openai-icon-2021x2048-4rpe5x7n.png" h-6 inline> DALL·E 2
@@ -241,7 +246,7 @@ hideInToc: true
 - You have an idea! 💡
 	- You can probably detect these comments, and remove them from the platform
     - <p inline bg-gradient-to-r from-rose to-indigo bg-clip-text text-transparent font-extrabold>How well can we identify these comments using machine learning?</p>
- 
+
 </v-clicks>
 
 ::right::
@@ -380,7 +385,7 @@ $\approx$ event-driven
 ![](https://www.databricks.com/wp-content/uploads/2021/06/MLflow-logo-pos-TM-1.png)
 
 ![](https://avatars.githubusercontent.com/u/88658467?s=280&v=4){.rounded-lg .shadow}
-  
+
 
 </div>
 </v-click>
@@ -425,7 +430,7 @@ hideInToc: true
 
 </div>
 <div flex justify-center items-center space-x-20 h-40 px-40>
-  
+
 
 [![](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-with-title.png)](https://huggingface.co/martin-ha/toxic-comment-model)
 
@@ -542,7 +547,7 @@ hideInToc: true
 <div bg-slate-200 z-1 p-10 shadow-md rounded-lg text-center scale-120>
 
 ### compute available ⚖️ compute required
-	
+
 </div>
 </div>
 </v-click>
@@ -608,7 +613,7 @@ hideInToc: true
 <br/>
 
 <div flex flex-col items-center justify-center h-full mx-5>
-  
+
 ## “Latency is a [measurement]{v-mark.red="'+1'"} in Machine Learning to determine the performance of various models for a specific application. Latency refers to the [time taken to process one unit of data provided only one unit of data is processed at a time]{v-mark="{type:'highlight', color:'yellow', multiline:true, at:'+1'}"}.”
 
 </div>
@@ -627,7 +632,7 @@ hideInToc: true
 
 ::left::
 
-- [Stable LM](https://github.com/Stability-AI/StableLM) from [Stability AI](https://stability.ai/) 
+- [Stable LM](https://github.com/Stability-AI/StableLM) from [Stability AI](https://stability.ai/)
 
 <carbon-arrow-right/> "ChatGPT-like"
 - Prompts:
@@ -860,7 +865,7 @@ hideInToc: true
 
 
 <div flex flex-col items-center justify-center class='h-1/3' mx-5>
-  
+
 ## “Edge machine learning (edge ML) is the process of running machine learning algorithms on computing devices [at the periphery of a network]{v-mark="{type:'highlight', color:'yellow', multiline:true, at:'+1'}"} to make decisions and predictions as close as possible to the originating source of data.”
 
 </div>
@@ -900,7 +905,7 @@ hideInToc: true
 <div flex flex-wrap justify-center items-center space-y-10 space-x-4 >
   <img src="https://tvmconf.org/images/tvm-logo.png" h-18 scale-120/>
   <img src="https://assets.website-files.com/5f6353590bb01cacbcecfbac/62bcc94c0babe746f7156b64_hopsworks-logo%202022.svg" h-18/>
-  
+
   <img src="https://maxdemarzidotcom.files.wordpress.com/2014/03/cache_all_the_things.jpg?w=580" h-32 rounded/>
 
   <img src="https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png" h-28 w-48 object-cover rounded/>
@@ -1098,7 +1103,7 @@ hideInToc: true
 ::bottom::
 
 <v-click at=8>
- 
+
 <carbon-arrow-right /> [MLOps decreases the burden of deploying ML systems by establishing best practices]{v-mark.highlight.yellow=8}
 
 </v-click>
@@ -1252,7 +1257,7 @@ hideInToc: true
 <br/>
 
 <div flex flex-col items-center justify-center h-full mx-5>
-  
+
 ## “The [level]{v-mark.circle.blue=1} of automation of these steps defines the maturity of the ML process, which [reflects the velocity of training new models given new data or training new models given new implementations]{v-mark="{type:'highlight', color:'yellow', multiline:true, at:2}"}. The following sections describe three levels of MLOps, starting from the most common level, which involves no automation, up to automating both ML and CI/CD pipelines.”
 
 </div>
@@ -1328,7 +1333,7 @@ flowchart LR
     poc["`Proof-of-Concept 🤖`"]
     mvp["`Minimal Viable Product 🦴`"]
     prod["`Iterate 🚀`"]
-    
+
     idea --> poc --> mvp --> prod
 ```
 
@@ -1341,7 +1346,7 @@ flowchart LR
     deploy["`Deployment 🏗️`"]
     monitor["`Monitoring 👀`"]
     eval .-> model
-    eval .-> eda    
+    eval .-> eda
     eda --> model --> eval --> deploy --> monitor
 ```
 
@@ -1365,14 +1370,14 @@ hideInToc: true
 <v-clicks depth=2>
 
 - Data versioning 🚀
-    - Reproducing models and scores 
+    - Reproducing models and scores
 - Feature engineering 📦
 	- Version code + artifacts
 - Model training 🌱
 	- Track experiments (models hyperparameters, etc.)
     - Use seeds
 - Quality assurance 🔍
-	- Unit/integration tests 
+	- Unit/integration tests
     - Statistical tests
     - Stability tests
     - GenAI tests? - Validation, self reflection, etc.
@@ -1385,7 +1390,7 @@ hideInToc: true
 
 <div flex justify-center items-center  h-full flex-wrap>
 <v-clicks>
-  
+
 ![](https://dvc.org/img/dvc_icon-color--square_vector.svg)
 
 ![](https://www.tensorflow.org/static/site-assets/images/project-logos/tensorboard-logo-social.png)
@@ -1397,7 +1402,7 @@ hideInToc: true
 ![](https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png)
 
 ![](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
-  
+
 ![](https://avatars.githubusercontent.com/u/44036562?s=280){.px-3}
 
 ![](https://i0.wp.com/neptune.ai/wp-content/uploads/2022/11/guild-AI.jpeg?fit=400%2C400&ssl=1){.rounded-lg}
