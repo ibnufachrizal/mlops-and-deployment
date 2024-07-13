@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/mlops-and-deployment',
+  base: '/mlops-and-deployment/',
 });
