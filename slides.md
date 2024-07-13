@@ -1479,3 +1479,5 @@ hideInToc: true
 <div h-full w-full flex justify-center items-center>
   <img src="https://media.giphy.com/media/uWlpPGquhGZNFzY90z/giphy.gif" rounded shadow h-92/>
 </div>
+
+<PoweredBySlidev mt-10 />
