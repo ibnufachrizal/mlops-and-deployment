@@ -25,6 +25,7 @@ favicon: 'https://raw.githubusercontent.com/datarootsio/slidev-theme-dataroots/m
 titleTemplate: '%s'
 ---
 
+<!-- This is a note -->
 # [MLOops]{v-mark.crossed-off=1} to MLOps
 
 <br/>
@@ -40,6 +41,7 @@ March 15th, 2024
 hideInToc: true
 ---
 
+<!-- This is a note -->
 # Agenda
 
 <br/>
@@ -70,6 +72,7 @@ layout: presenter
 photo: https://charlas.2023.es.pycon.org/media/avatars/blob_p6VtbO9.jpg
 ---
 
+<!-- This is a note -->
 # About me
 
 - 🇧🇷 → 🇧🇪: Brazilian @ Belgium
@@ -98,6 +101,7 @@ hideInToc: true
 layout: default
 ---
 
+<!-- This is a note -->
 # I have worked on different [Data/AI projects]{.gradient-text}
 
 <br/>
@@ -136,6 +140,7 @@ hideInToc: true
 layout: twocols
 ---
 
+<!-- This is a note -->
 # From the [prototyping]{.gradient-text} side...
 <br/>
 
@@ -172,6 +177,7 @@ layout: twocols
 hideInToc: true
 ---
 
+<!-- This is a note -->
 # ...to <p inline bg-gradient-to-r from-rose to-indigo bg-clip-text text-transparent> production </p> applications
 
 <br/>
@@ -200,6 +206,7 @@ hideInToc: true
 hideInToc: true
 ---
 
+<!-- This is a note -->
 # Why am I [here]{.gradient-text}?
 
 
@@ -213,6 +220,7 @@ hideInToc: true
 
 ---
 
+<!-- This is a note -->
 # Use case: [content moderation]{.gradient-text}
 
 
@@ -231,6 +239,7 @@ hideInToc: true
 hideInToc: true
 ---
 
+<!-- This is a note -->
 # What is [content moderation]{.gradient-text}?
 
 ::left::
