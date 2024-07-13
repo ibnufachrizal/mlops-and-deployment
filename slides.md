@@ -11,7 +11,6 @@ themeConfig:
 presenter: true
 # enable slide recording, can be boolean, 'dev' or 'build'
 record: true
-
 title: MLOps
 info: |
   ## MLOps
@@ -36,7 +35,9 @@ titleTemplate: '%s'
 March 15th, 2024
 </v-click>
 
-<!-- This is a note -->
+<!--
+haloo
+-->
 
 ---
 hideInToc: true
@@ -67,7 +68,9 @@ li:not(li:first-child) {
 }
 </style>
 
-<!-- This is a note -->
+<!--
+ini test ya
+-->
 
 ---
 layout: presenter
@@ -96,8 +99,6 @@ li {
   margin-top: 0 !important;
 }
 </style>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -137,13 +138,10 @@ layout: default
 
 </v-click>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 layout: twocols
 ---
-
 
 # From the [prototyping]{.gradient-text} side...
 <br/>
@@ -177,8 +175,6 @@ layout: twocols
 </v-clicks>
 </div>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -206,13 +202,11 @@ hideInToc: true
 
 <img src="https://media.giphy.com/media/ND6xkVPaj8tHO/giphy.gif?cid=ecf05e47k50mo4pn7fgs4f1c6uaqa19dxwfhdux3qfihg0ez&ep=v1_gifs_search&rid=giphy.gif&ct=g" rounded-lg scale-80 shadow-md />
 
-<!-- This is a note -->
 
 ---
 hideInToc: true
 ---
 
-<!-- This is a note -->
 # Why am I [here]{.gradient-text}?
 
 
@@ -240,8 +234,6 @@ hideInToc: true
 
 </div>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -267,8 +259,6 @@ hideInToc: true
 ::right::
 
 ![](https://media.giphy.com/media/3Fkw8DCq4eUxp31E4n/giphy.gif){.rounded-lg .shadow-lg .scale-80}
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -301,8 +291,6 @@ layout: cover
 ## (Congrats! <span inline-block animate-ping>🎉</span> Many projects don't get this far)
 
 </v-click>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -342,8 +330,6 @@ hideInToc: true
 
 </div>
 </v-click>
-
-<!-- This is a note -->
 
 ---
 
@@ -425,8 +411,6 @@ img {
 }
 </style>
 
-<!-- This is a note -->
-
 ---
 layout: cover
 ---
@@ -434,8 +418,6 @@ layout: cover
 # <span class='gradient-text'>Hacker News</span> content moderation in action <span animate animate-ping>🚀</span>
 
 ## (Simplified) batch deployment demo
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -469,8 +451,6 @@ hideInToc: true
 </div>
 </v-click>
 
-<!-- This is a note -->
-
 ---
 layout: cover
 ---
@@ -478,8 +458,6 @@ layout: cover
 # [Real time]{.gradient-text} deployments 🚀
 
 ## And the problem of [latency]{v-mark.red=0}
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -545,8 +523,6 @@ I.e.: fraud detection
 Low latency
 -->
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -557,8 +533,6 @@ hideInToc: true
 
 <iframe src="https://asciinema.org/a/646947/iframe?speed=5" p-5 w-full h-105/>
 
-<!-- This is a note -->
-
 ---
 
 # The problem of latency
@@ -566,8 +540,6 @@ hideInToc: true
 <div h-full w-full flex justify-center items-center>
   <img src="/static/latency.png" rounded shadow h-92/>
 </div>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -638,8 +610,6 @@ graph LR
 </div>
 </v-click>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -660,8 +630,6 @@ hideInToc: true
 ## [- OpenGenus](https://iq.opengenus.org/latency-ml/)
 
 </div>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -716,8 +684,6 @@ Compute resources
 Processing and memory
 -->
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -727,8 +693,6 @@ hideInToc: true
 <br/>
 
 <iframe src="https://asciinema.org/a/8PRQDcwFUTLXQ2WQYqczGV5IY/iframe?speed=2&idleTimeLimit=3" p-5 w-full h-105/>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -775,8 +739,6 @@ Which one should you choose?
 High traffic → scale out
 High model complexity → scale up
 -->
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -834,8 +796,6 @@ li {
 }
 </style>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -845,8 +805,6 @@ hideInToc: true
 <br/>
 
 <iframe src="https://asciinema.org/a/x5zX5jFKYtFVzg0FZXL9lW9Mo/iframe?speed=3&idleTimeLimit=3" p-5 w-full h-105/>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -872,8 +830,6 @@ hideInToc: true
 </div>
 </v-click>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -896,8 +852,6 @@ hideInToc: true
 <img src="https://user-images.githubusercontent.com/1991296/225259817-1682cf61-7f10-414d-ad74-a0a1bbe963d4.png"  rounded shadow/>
 </div>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -906,8 +860,6 @@ hideInToc: true
 
 
 <iframe src="https://asciinema.org/a/iphbEPhRNdS01C2aupWDj5VMM/iframe?speed=2&idleTimeLimit=3" p-5 w-full h-115/>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -939,8 +891,6 @@ hideInToc: true
   <carbon-ibm-watsonx-code-assistant-for-z text-sky-700 text-8xl mx-10/>
   </v-clicks>
 </div>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1007,15 +957,11 @@ Stress tests
 …
 -->
 
-<!-- This is a note -->
-
 ---
 layout: cover
 ---
 
 # [Real time]{.gradient-text} use cases
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1043,8 +989,6 @@ Latency was too high to be accepted
 Sagemaker endpoint was “turned on and off” daily to reduce costs
 Medium article with more info here
 -->
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1077,8 +1021,6 @@ Latency was too high to be accepted
 Sagemaker endpoint was “turned on and off” daily to reduce costs
 Medium article with more info here
 -->
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1124,15 +1066,12 @@ First step reduces the amount of images to be used in the ML model
 Use Open Neural Network Exchange (ONNX) format for better performance
 -->
 
-<!-- This is a note -->
 
 ---
 layout: cover
 ---
 
 # Why MLOps?
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1176,8 +1115,6 @@ hideInToc: true
 
 </v-click>
 
-<!-- This is a note -->
-
 ---
 
 # Real life [testimonials]{.gradient-text}
@@ -1212,16 +1149,12 @@ hideInToc: true
   }
 </style>
 
-<!-- This is a note -->
-
 ---
 layout: cover
 title: What is MLOps?
 ---
 
 # What is [ML]{v-mark.red=1}[Ops]{v-mark.circle.yellow=2}?
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1267,8 +1200,6 @@ hideInToc: true
 
 ## [✨ MLOps ✨]{.flex .justify-center .'-mt-20' v-click}
 
-<!-- This is a note -->
-
 ---
 
 # DevOps vs. [MLOps]{.gradient-text}
@@ -1304,8 +1235,6 @@ hideInToc: true
 
 </v-click>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -1325,7 +1254,6 @@ hideInToc: true
 </div>
 </v-click>
 
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1347,8 +1275,6 @@ hideInToc: true
 
 </div>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -1359,7 +1285,6 @@ hideInToc: true
 
 <iframe src="https://arxiv.org/ftp/arxiv/papers/2205/2205.02302.pdf" w-full h-95 rounded shadow-lg v-click/>
 
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1390,8 +1315,6 @@ hideInToc: true
 - [Recreate model artifacts]{v-mark.highlight.cyan=13}
 - [Deploy model systems(not just one off solutions)]{v-mark.highlight.cyan=14}
 
-<!-- This is a note -->
-
 ---
 layout: cover
 ---
@@ -1399,7 +1322,6 @@ layout: cover
 # MLOps Illustrated
 ## ML Lifecyle Recap
 
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1443,8 +1365,6 @@ flowchart LR
 ![](/static/21.svg){.absolute .top-0 .scale-110}
 
 </v-click>
-
-<!-- This is a note -->
 
 ---
 hideInToc: true
@@ -1506,8 +1426,6 @@ img {
  }
 </style>
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -1550,8 +1468,6 @@ Increase resources: scaling up (i.e.: GPUs), scaling out
 Reduce required compute: model quantization, change model architecture, change solution architecture, sacrifice correctness
 -->
 
-<!-- This is a note -->
-
 ---
 hideInToc: true
 ---
@@ -1561,5 +1477,3 @@ hideInToc: true
 <div h-full w-full flex justify-center items-center>
   <img src="https://media.giphy.com/media/uWlpPGquhGZNFzY90z/giphy.gif" rounded shadow h-92/>
 </div>
-
-<PoweredBySlidev mt-10 />
