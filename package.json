@@ -12,6 +12,6 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-theme-dataroots": "github:datarootsio/slidev-theme-dataroots",
-    "vue": "^3.4.21"
+    "vue": "^3.4.31"
   }
 }
