@@ -8,9 +8,13 @@ themeConfig:
   twitter: _murilocunha
   linkedin: in/murilo-cunha
 # enable presenter mode, can be boolean, 'dev' or 'build'
-presenter: dev
+presenter: build
+# enabled pdf downloading in SPA build, can also be a custom url
+download: build
 # enable slide recording, can be boolean, 'dev' or 'build'
-record: true
+record: build
+# enable wake lock, can be boolean, 'dev' or 'build'
+wakeLock: build
 title: MLOps
 info: |
   ## MLOps
