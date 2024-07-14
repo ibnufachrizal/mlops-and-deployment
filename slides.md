@@ -8,7 +8,7 @@ themeConfig:
   twitter: _murilocunha
   linkedin: in/murilo-cunha
 # enable presenter mode, can be boolean, 'dev' or 'build'
-presenter: true
+presenter: dev
 # enable slide recording, can be boolean, 'dev' or 'build'
 record: true
 title: MLOps
@@ -36,7 +36,7 @@ March 15th, 2024
 </v-click>
 
 <!--
-haloo
+haloo tes
 -->
 
 ---
